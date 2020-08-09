@@ -1,3 +1,8 @@
+## Coursera: Getting and Cleaning Data
+## Getting and Cleaning Data Course Project
+## Last Edited: 09 Aug 2020
+
+
 library(dplyr)
 
 setwd("/Users/hx2/Downloads/UCI HAR Dataset")
@@ -47,6 +52,8 @@ table_summary <- composite %>%
   summarise_all(mean) %>%
   ungroup()
 
+# writing the result into a .txt file
 write.table(table_summary,file = "./step5_summary.txt",row.names = F)
 
+#checking the resulting file can be read
 checkresult <- read.table('./step5_summary.txt', sep = "")
