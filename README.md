@@ -6,7 +6,7 @@ This repo is a part of the "Coursera: Getting and Cleaning Data" project.
 
 ***step5_summary.txt**: the resulting tidy data
 
-***CodeBook.md**:  a code book that describes the variables, the data, and any transformations 
+***CodeBook.md**: describes the variables, the data, and any transformations 
 
 
 ### The project instruction
@@ -22,6 +22,7 @@ The project data is available at
 https://d396qusza40orc.cloudfront.net/getdata%2Fprojectfiles%2FUCI%20HAR%20Dataset.zip
 
 This is a part of the data collected from the accelerometers from the Samsung Galaxy S smartphone by Univeristy of California Irvine
+
 http://archive.ics.uci.edu/ml/datasets/Human+Activity+Recognition+Using+Smartphones
 
 ### References
